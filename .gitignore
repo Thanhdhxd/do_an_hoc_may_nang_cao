@@ -22,13 +22,14 @@ data/*.zip
 *.safetensors
 
 # Output directories
-outputa_bilstm/
+outputs_bilstm/
 outputs_bert/
 outputs_svm/
 outputs_logistic/
 
-# Encoded data
-encoded_split_data/*.npy
+# Encoded and split data
+encoded_split_data/
+split_augmented_data/
 
 # IDE
 .vscode/
