@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+data/archive.zip
+data/*.zip
+*.npy
+
+# Model files
+*.pt
+*.pkl
+*.safetensors
+
+# Output directories
+outputa_bilstm/
+outputs_bert/
+outputs_svm/
+outputs_logistic/
+
+# Encoded data
+encoded_split_data/*.npy
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
