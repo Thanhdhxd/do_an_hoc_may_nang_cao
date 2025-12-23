@@ -29,13 +29,13 @@ Bốn mô hình được triển khai theo cùng quy trình tiền xử lý và 
 ### 2.1. Dòng chảy dữ liệu tổng quát
 
 ```
-Raw Dataset (69,995 samples)
+Raw Dataset (50000 samples)
          ↓
 [Stratified Split: 80/20]
          ↓
     ┌────────┴────────┐
     ↓                 ↓
-Train (55,996)   Test (10,000)
+Train (40,000)   Test (10,000)
     ↓                 ↓
 [Back Translation]   [No Augmentation]
     ↓                 ↓
